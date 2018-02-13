@@ -46,9 +46,9 @@ urlpatterns = [
     url(r'^subscriptions_webhook/$', accounts_views.subscriptions_webhook, name='subscriptions_webhook'),
 ]
 
-if settings.DEBUG:
-    import debug_toolbar
+#if settings.DEBUG:
+#    import debug_toolbar
 
-urlpatterns += [
-        url(r'^__debug__/', include(debug_toolbar.urls)),
-    ]
+#urlpatterns += [
+#        url(r'^__debug__/', include(debug_toolbar.urls)),
+#    ]
