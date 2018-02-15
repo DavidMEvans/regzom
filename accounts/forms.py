@@ -104,7 +104,7 @@ class UserLoginForm(forms.Form):
 #        return instance
 
 
-class UserRegistrationForm(UserCreationForm):
+class RegistrationForm(UserCreationForm):
     password1 = forms.CharField(
         label='Password',
         widget=forms.PasswordInput
