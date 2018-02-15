@@ -20,7 +20,6 @@ INSTALLED_APPS = [
     'django.template',
     'django_forms_bootstrap',
     'django.contrib.sites',
-    'django.contrib.admin',
     'accounts',
     'posts',
     'RegZom'
